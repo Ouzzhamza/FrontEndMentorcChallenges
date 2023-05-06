@@ -68,7 +68,8 @@ body {
     border-top: 1px solid hsl(0, 0%, 86%);
 }
 
-button {
+
+/* button {
     padding: 20px;
     border-radius: 50%;
     border: none;
@@ -79,4 +80,24 @@ button {
 
 button:hover {
     background-color: black;
+} */
+
+.result {
+    display: absolute;
+    flex-direction: column;
+    font-size: 70px;
+    transform: translate(10%);
+    /* color: brown; */
+}
+
+.years span {
+    color: blueviolet;
+}
+
+.months span {
+    color: blueviolet;
+}
+
+.days span {
+    color: blueviolet;
 }
